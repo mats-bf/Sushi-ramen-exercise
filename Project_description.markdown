@@ -14,4 +14,4 @@ The information sources you use to inform the executive on how to enter the Norw
 
 - FourSquare to search for existing sushi and noodle restaurants in the Oslo boroughs
 
-From the Wikipedia page you are able to segment Oslo into different boroughs. To show the desicion makers the exisitng strucutre you will make a choropleth graph of both the sushi and noodle restaurants in the borougs. You will also make maps showing the exact locations of the restaurants within the borougs. 
+From the Wikipedia page you are able to segment Oslo into different boroughs. To show the desicion makers the exisitng structure you will make a choropleth graph of both the sushi and noodle restaurants in the borougs. You will also make maps showing the exact locations of sushi and noodle restaurants within the borougs. 
