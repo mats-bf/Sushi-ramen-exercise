@@ -8,10 +8,24 @@ The head of the strategy division asks you to analyze the market for sushi and n
 take their decisions upon it and use it to carve out their strategy for entering Euope, beginning with Norway. 
 
 #### Data 
+You want the executive team to get a thorough understanding of the characteristics of Oslo.  You decide to visualize the existing market for sushi and noodle 
+restaurants within each Oslo borough through choropleth graphs, and you wnat to present a statistical analysis using machine learning algorithms of which borrows are similar to each other.  
+
 The information sources you use to inform the executive on how to enter the Norwegian market are: 
 
 - A list of boroughs from Wikipedia: https://en.wikipedia.org/wiki/List_of_boroughs_of_Oslo
 
-- FourSquare to search for existing sushi and noodle restaurants in the Oslo boroughs
+- FourSquare to search for existing sushi and noodle restaurants in each Oslo borough
 
-From the Wikipedia page you are able to segment Oslo into different boroughs. To show the desicion makers the exisitng structure you will make a choropleth graph of both the sushi and noodle restaurants in the borougs. You will also make maps showing the exact locations of sushi and noodle restaurants within the borougs. 
+- Coordinate information for Oslo boroughs from Statistcs Norway to make the choropleth graphs: https://kart.ssb.no/
+
+From the Wikipedia page you are able to segment Oslo into different boroughs. Latitude and longitude of each borough can be acquired from the Python Geopy library.
+These coordinates will then be used to search for sushi and noodle restaurants from FourSqaure within a 1 km. range of each coordinates. 
+
+For each borough you count the number of sushi and noodle restaurants, respectively. These totals are used to create choropleth map of the Oslo boroughs showing the density of sushi and noodle restaurants in Oslo. The coordinates of Oslo boroughs are given by Statistics Norway. 
+
+
+
+Further the coordinates of the sushi and noodle restaurants will be plotted in maps showing the the exact locations of sushi and noodle restaurants within the borougs. 
+
+
