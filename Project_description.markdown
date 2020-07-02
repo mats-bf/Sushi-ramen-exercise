@@ -26,4 +26,4 @@ These coordinates are then be used to search for sushi and noodle restaurants fr
 
 For each borough you count the number of sushi and noodle restaurants, respectively. These totals are used to create choropleth map of the Oslo boroughs showing the density of sushi and noodle restaurants in Oslo.  
 
-To understand which of the boroughs are similar and which that differ, you broaden the venue search and look at all venues within each borough. You use KMeans to cluster the Oslo boroughs based on the full venue result. 
+To understand which of the boroughs are similar and which that differ, you broaden the venue search and look at all venues within each borough. You use KMeans to cluster the Oslo boroughs based on the full venue result. Finally, you plot the cluster value of each borough on a map. 
